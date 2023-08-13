@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+    <div class="container-fluid main p-0 ">
+  
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nav-color p-0  ">
+              <a class="navbar-brand" href="#" style="margin-left: 10% ;">NeurazaDashboard</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 35%">
+                  <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Documentation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Playground</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar-link" href="#">Community</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+          <div class="row m-2 row-box" >
+
+            <div class="col-md-2 m-1 div1">
+              
+                
+                <!------------------->
+                <button class="btn btn-light text-family d-lg-none offc-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Quick Links</button>
+
+                  <div class="alert alert-info d-none d-lg-block" style="background:none;border: none;">
+                    <div class=" link-div">
+                      <div class="d-flex flex-column links">
+                        <a href="http://">Explore</a>
+                        <a href="http://">Platform</a>
+                        <a href="http://">Models</a>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p class="setting text-family">Settings</p>
+                        <a href="">API Keys</a>
+                        <a href="">Team</a>
+                      </div>
+                  </div>
+                  </div>
+
+                  <div class="offcanvas offcanvas-top h-auto" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasResponsiveLabel" style="margin:  auto;">Quick Links</h5>
+                      <button style="color: white;" type="button" class="btn-close " data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div class=" link-div">
+                        <div class="d-flex flex-column links">
+                          <a href="http://">Explore</a>
+                          <a href="http://">Platform</a>
+                          <a href="http://">Models</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                          <p class="setting text-family">Settings</p>
+                          <a href="">API Keys</a>
+                          <a href="">Team</a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                <!------------------->
+                
+            </div>
+            <div class="col-md-9 m-1 p-3 div2">
+                
+                <div class="d-flex flex-column div2-row1">
+                    <p class="heading text-family ">Billing and Usage</p>
+                    <div class="t">
+                        <p class="text-family text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quibusdam quo quaerat in suscipit sapiente alias ipsum libero dignissimos aliquid voluptates illo laudantium, deserunt sint officia laborum hic debitis repellat mollitia! Harum sequi provident aperiam architecto reprehenderit quisquam neque ab vitae molestias. Repellat, nostrum? Veniam dolorum possimus dignissimos deleniti sint.
+                        </p>
+                        
+                    <button type="button" class="btn btn-light key-btn text-family">Get your production key </button>
+                    </div>
+                </div>
+                <br>
+                <!-------------->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active tab-nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="padding: 20px;">Usage</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link tab-links tab-nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false" style="padding: 20px;">Invoices</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link tab-nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" style="padding: 20px;">Payements</button>
+                    </li>
+                    
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                      <!---->
+                      <div class="usage-div">
+                        <p class="text-family">SUBTOTAL</p>
+                          <div class="amount-div">
+                            <p class="amount text-family">0.00</p>
+                            <p class="amount-currency ">USD</p>
+                          </div>
+                          <div class="date-div">
+                            <p class="text-family">Last updated: Aug 1, 2023</p>
+                            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="left" title="Modify date">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </div>
+                      </div>
+                      <!---->
+
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                      <!---->
+                      <div class="usage-div">
+                        <p class="text-family">SUBTOTAL</p>
+                          <div class="amount-div">
+                            <p class="amount text-family">15.00</p>
+                            <p class="amount-currency ">USD</p>
+                          </div>
+                          <div class="date-div">
+                            <p class="text-family">Last updated: Aug 1, 2023</p>
+                            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="left" title="Modify date">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </div>
+                      </div>
+                      <!---->
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <!---->
+                      <div class="usage-div">
+                        <p class="text-family">PLAN NAME</p>
+                        <p class="text-family">Invoice number</p>
+                          <!-- <div class="amount-div">
+                            <p class="amount text-family">14.00</p>
+                            <p class="amount-currency ">USD</p>
+                          </div> -->
+                          <div class="date-div">
+                            <p class="text-family">Billing date: Aug 1, 2023</p>
+                            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="left" title="Modify date">
+                              <i class="fa fa-pencil"></i>
+                            </button>
+                          </div>
+
+                      </div>
+                      <!---->
+                    </div>
+                  </div>
+            </div>
+
+          </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

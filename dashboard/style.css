@@ -1,0 +1,158 @@
+.text-family
+{
+    font-family: 'Nunito', sans-serif;
+}
+/* body
+{
+    background-color: black;
+} */
+.navbar-brand, a, .tab-nav-link
+{
+    color: #b5d6ff;
+}
+.navbar
+{
+    padding: 0px;
+  
+    margin: auto;
+    
+}
+.nav-color
+{
+    background-color:#16003B;   
+}
+
+.navbar-link
+{
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    margin:0px 1.5vw 0px 1.5vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+.navbar-link:hover
+{
+    background-color: white;
+    color: #16003B;
+    font-weight: bolder;
+    transition: 1s;
+}
+.row-box
+{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.link-div
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.links
+{
+    margin: 2px;
+}
+.link-div a
+{
+    text-decoration: none;
+    padding: 5px 0px;
+}
+.setting
+{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.div1 
+{
+    background-color: #060047;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+.div2
+{
+    background-color: #060047;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+.div2-row1
+{
+    padding:0px 30px ;
+}
+.heading
+{
+    font-size: 35px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+.text
+{
+    font-size: 22px;
+    font-weight: 500;
+    background-color: rgb(239, 238, 238);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+.key-btn{
+    margin: 0px 0px 10px 5px;
+    color: rgb(255, 255, 255);
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+.offc-btn
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-weight: bold;
+
+}
+
+.usage-div
+{
+   display: flex;
+   flex-direction: column;
+   margin: 30px 0px 20px 30px;
+   color: white;
+
+}
+.usage-div p{
+    margin: 0;
+}
+.amount-div
+{
+    display: flex;
+    align-items: baseline;
+}
+.amount
+{
+    font-size: 45px;
+}
+.amount-currency
+{
+    padding: 0px 5px;
+    font-weight: bold;
+}
+.date-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.offcanvas-top
+{
+    background-color: #16003B;
+}
+ .offcanvas-header
+{
+    background-color: white;
+}
