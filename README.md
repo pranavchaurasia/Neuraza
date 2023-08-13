@@ -5,4 +5,4 @@ FashionX
 https://pranavxfashionx.netlify.app/
 
 Dashboard
-basicboard.netlify.app
+https://basicboard.netlify.app/
