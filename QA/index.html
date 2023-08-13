@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DQA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="slider/slider.css">    
+    <script src="https://unpkg.com/feather-icons"></script>
+  
+</head>
+<body  onload="myFunction()" class="">
+  
+  <div id="loader">
+  <!-- <img class="img-fluid" src="img/lily.gif" alt=""> -->
+  <div class="custom-loader"></div>
+  </div>
+
+
+    <div id="myDiv" class="m-2">
+
+    <nav class="navbar   navbar-expand-lg bg-body-tertiary m-0 p-2">
+        <div class="container-fluid navbar-custom">
+          <a class="navbar-brand"style="" href="#" >DQA</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse nav-center text-center"  id="navbarSupportedContent" style="margin: auto;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: auto;">
+              <li class="nav-item ]">
+                <a class="nav-link " aria-current="page" href="#">Advisory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">AIasS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Use Cases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Solutions</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="#">Blog</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid hero-sec">
+      <video id="background-video" autoplay loop  muted src="img/128098 (720p).mp4"></video>
+     
+      <div class="hero-text">
+        <p class="hero-heading"> Document Question Answering <img src="" alt=""> </p>
+        <p class="hero-subheading ">You got Queries? We got Answers!</p>
+        <a href="#query-section-id" class="hero-btn text-family">Start now</a>
+      </div>
+      </div>
+      <br><br>
+
+      <div class="big-container">
+        <div class=" container text-container p-2">
+
+          <p class="heading-text text-family">Easy Online Summarization!</p>
+          <img src="img/float-man.png" class="img-fluid float-man" alt="">
+          <div class="subheading-div container  ">
+            <p class="subheading-text">Save time reading without missing out on the important points from the text. With DQA's online summarization tool, quickly summarize any online article or your own uploaded PDF in seconds with a single click.</p>
+          </div>
+        </div>
+    </div>
+    <div class="big-container-reverse">
+      
+      <div class=" container text-container p-2">
+        <p class="feature-text text-family">Features!</p>
+        <div class="card-container">
+        <!--card-->
+        <div class="card" >
+          
+          <div class="card-body">
+            <img class="card-img-top img-fluid" src="img/file.gif" alt="Card image cap">
+            <h5 class="card-title">Use PDFs / Links</h5>
+            <br>
+            <p class="card-text">
+            DQA is a smart AI tool that now comes with two handy solutions . Upload a PDF or use any image url and get the answers for any queries about them.
+            </p>
+           
+          </div>
+        </div>
+        <!--card-->
+        <div class="card" >
+          
+          <div class="card-body">
+            <img class="card-img-top img-fluid" src="img/alarm.gif" alt="Card image cap">
+            <h5 class="card-title">Save your time</h5>
+            <br>
+            <p class="card-text">
+            Save your time by using DQA's smart assistance for summarizing the uploaded content. Ain't no need to go through all the texts, get the answers of your queries with a single click. 
+            </p>
+           
+          </div>
+        </div>
+        <!--card-->
+        <div class="card" >
+          
+          <div class="card-body">
+            <img class="card-img-top img-fluid" src="img/lily.gif" alt="Card image cap">
+            <h5 class="card-title">Easy to use</h5>
+            <br>
+            <p class="card-text">
+            DQA with its unique interface is there for you to provide a seamless experience. Just upload the pdf or enter the link, enter the query and, get the desired results in absolutely no time! 
+            </p>
+            
+          </div>
+        </div>
+        </div>
+
+      </div>
+  </div>
+ 
+  <div class="big-container-reverse-2">
+    <div class=" container text-container p-2"><br>
+      <p class="feature-text text-family"></p>
+      
+      <div id="query-section-id" class="subheading-div container slider-container " >
+       
+        <!-- <h1 class="title">Pranav Question Answering</h1> -->
+        <div class="glass-box">
+          <form method="post" enctype="multipart/form-data">
+            <div class="input-section qna-section">
+                <p class="select-ip-opt">Select Input Option:</p>
+
+                <div class="radio-group">
+                    <div>
+                        <input class="" type="radio" name="option" value="Upload File" id="upload-radio" required>
+                        <label class="radio-text text-family" tfor="upload-radio">Upload File</label>
+                    </div>
+                    <div style>
+                        <input class="radio-btn" type="radio" name="option" value="Provide URL" id="url-radio">
+                        <label class="radio-text text-family" for="url-radio">Provide URL</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-section ask-query-section" >
+                <p class="para-tag-text">Ask a query from your documents:</p>
+                <div>
+                  <i data-feather="search"></i>
+                  <input type="text" name="user_question" class="query-input" required>
+                </div>
+            </div>
+
+            <div class="input-section upload-section" id="upload-section">
+                <p  class="para-tag-text">Upload your document:</p>
+                <label for="file-upload" class="custom-file-upload">
+                    <i data-feather="paperclip"></i> Choose File
+                </label>
+                <input type="file" id="file-upload" name="uploaded_files" accept=".jpg, .jpeg, .png" multiple>
+            </div>
+
+            <div class="input-section url-section" id="url-section" style="display: none;">
+                <p class="para-tag-text">Enter the URL of the image:</p>
+                <div>
+                <i data-feather="at-sign"></i>
+                <input type="text" name="url">
+              </div>
+
+            </div>
+
+            <button type="submit" class="btn submit-button process text-family">Process</button>
+        </form>
+        </div>
+      </div>
+    </div>
+</div>
+<br><br><br>
+
+<!--footer-->
+<div class="row container-fluid footer ">
+
+  <div class="col-md-4 p-2 col1">
+    <p class="footer-heading text-family text-light">DQA</p>
+  </div>
+  <div class="col-md-4 p-2 col2">
+    <p class="footer-heading text-family">Follow us</p>
+    <div class="social-icons">
+      <a class="icon" href=""><i  data-feather="linkedin"></i></a>
+      <a href=""><i class="icon" data-feather="instagram"></i></a>
+      <a href=""><i class="icon" data-feather="facebook"></i></a>
+      <a href=""><i class="icon" data-feather="globe"></i></a>
+    </div>
+  </div>
+  <div class="col-md-4 text-center p-2 col3 ">
+    <p class="footer-heading text-family">Contact us</p>
+    
+    <div class="contact-links" >
+       <p  class="icon"><i  data-feather="mail" ></i> info@mail.com</p>
+      <p  class="icon"><i data-feather="phone"></i> +99 888 7777</p>
+    </div>
+  </div>
+  <p  class="text-center copyright text-family">All rights reserved &#169 2023</p> 
+</div>    
+
+
+</div><!--after-loader-content-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>    
+ <script>
+  feather.replace()
+</script>
+<script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+<script>
+  const optionRadios = document.querySelectorAll('input[name="option"]');
+  const uploadSection = document.getElementById('upload-section');
+  const urlSection = document.getElementById('url-section');
+
+  optionRadios.forEach(radio => {
+      radio.addEventListener('change', () => {
+          if (radio.value === "Upload File") {
+              uploadSection.style.display = "block";
+              urlSection.style.display = "none";
+          } else if (radio.value === "Provide URL") {
+              uploadSection.style.display = "none";
+              urlSection.style.display = "block";
+          }
+      });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document QA App - Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Document Question Answering</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="input-section">
+                <label>Select Input Option:</label>
+                <div class="radio-group">
+                    <input type="radio" name="option" value="Upload File" id="upload-radio" required>
+                    <label for="upload-radio">Upload File</label>
+                    <input type="radio" name="option" value="Provide URL" id="url-radio">
+                    <label for="url-radio">Provide URL</label>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <label>Ask a query from your documents:</label>
+                <input type="text" name="user_question" class="query-input" required>
+            </div>
+
+            <div class="input-section" id="upload-section">
+                <label class="upload-label">Upload your Document:</label>
+                <label for="file-upload" class="custom-file-upload">
+                    <i class="fas fa-cloud-upload-alt"></i> Choose File
+                </label>
+                <input type="file" id="file-upload" name="uploaded_files" accept=".jpg, .jpeg, .png" multiple>
+            </div>
+
+            <div class="input-section" id="url-section" style="display: none;">
+                <label>Enter the URL of the image:</label>
+                <input type="text" name="url">
+            </div>
+
+            <button type="submit" class="submit-button">Process</button>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script>
+        const optionRadios = document.querySelectorAll('input[name="option"]');
+        const uploadSection = document.getElementById('upload-section');
+        const urlSection = document.getElementById('url-section');
+
+        optionRadios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                if (radio.value === "Upload File") {
+                    uploadSection.style.display = "block";
+                    urlSection.style.display = "none";
+                } else if (radio.value === "Provide URL") {
+                    uploadSection.style.display = "none";
+                    urlSection.style.display = "block";
+                }
+            });
+        });
+    </script>
+</body>
+</html>

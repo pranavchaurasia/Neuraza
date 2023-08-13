@@ -1,0 +1,76 @@
+.text-family
+{
+    font-family: 'Nunito', sans-serif;  
+}
+.title
+{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.container
+{
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    padding: 15px 0px;
+
+    max-width: 730px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-45deg, #7411f6, #bf3ce7, #23a6d5, #1eb3ef);
+    background-size: 400% 400%;
+    animation: gradient 10s alternate-reverse infinite;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.inner-container
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.no-answer, .answers-list li
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.result-home-icon
+{
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-45deg, #7411f6, #bf3ce7, #23a6d5, #1eb3ef);
+    background-size: 400% 400%;
+    animation: gradient 10s alternate-reverse infinite;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

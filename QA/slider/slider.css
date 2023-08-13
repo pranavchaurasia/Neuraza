@@ -1,0 +1,176 @@
+/* .slider-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1100px;
+    background: rgb(211,121,255);
+    background: radial-gradient(circle, rgba(211,121,255,1) 20%, rgba(135,188,255,1) 52%, rgba(255,255,255,1) 82%);
+    
+} */
+.slider-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 920px;
+    padding: 10px 10px 20px 10px ;
+   
+    background: linear-gradient(-45deg, #7411f6, #bf3ce7, #23a6d5, #1eb3ef);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+}
+.qna-section
+{
+    
+    margin: auto;
+    max-width: 800px;
+}
+.label
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+.ask-query-section
+{
+    padding: 20px 20px 0px 20px; 
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+.ask-query-section input, .url-section input
+{
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    max-width: 280px;
+    background: transparent;
+    border: 1px solid black;
+    margin: 5px auto;
+}
+.select-ip-opt
+{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.para-tag-text
+{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .glass-box
+{
+    border-radius: 25px;
+    padding: 80px;
+    background-color: rgba(210, 205, 205, 0.267);
+   
+} */
+
+.glass-box
+{
+    padding: 50px ;
+    width: 900px;
+    background-color: white;
+}
+.upload-section
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.upload-section input
+{
+    display: none;
+}
+.radio-group
+{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+.radio-text 
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.url-section
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+.process
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(-45deg, #7411f6, #bf3ce7, #23a6d5, #1eb3ef);
+    background-size: 400% 400%;
+    animation: gradient 10s alternate-reverse infinite;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+}
+.process:hover
+{
+    color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media (max-width:1008px) {
+ 
+    .col1, .col2, .col3
+    {
+        padding: 10px 0px;
+    }
+    .glass-box
+    {
+        width: 98%
+    }
+}
+@media (max-width:600px) {
+    .radio-group
+    {
+        flex-direction: column;
+    }
+    .radio-text{
+        font-size: 5vw;
+    }
+    .ask-query-section input, .url-section input
+    {
+    max-width: 50vw;
+    }
+}
+
