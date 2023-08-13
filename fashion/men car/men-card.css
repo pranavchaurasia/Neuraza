@@ -1,0 +1,160 @@
+.text-family
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+.col-2-width
+{
+   padding: auto;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.men-heading
+{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    margin: 10px 0px;
+    padding: 0px 0px 10px 0px;
+}
+.offer,.size-chart
+{
+    margin-left: auto;
+}
+.add-to-cart-btn
+{
+    color: white;
+    background: #1D9BF0;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.wishlist-btn
+{
+    border: 1px solid #949494;
+    color:#949494;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.btn-text
+{
+    
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.description-box
+{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    margin: 3px 0px;
+}
+.description-heading
+{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.description
+{
+    color: rgba(86, 86, 86, 0.974);
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 2.08px;
+    line-height: 160%;
+    
+
+}
+.men-img-div
+{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.men-price
+{
+    margin: 4px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.quantity-icon-size
+{
+    font-size: 2px;
+}
+.quantity-icon-size-btn
+{
+    font-size: 1px;
+    padding: 0;
+}
+.quantity-div
+{
+    margin: 10px 0px;
+}
+#quantity
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.026);
+    border-radius: 9%;
+    text-align: center;
+    height: 28px;
+    
+}
+@media  (max-width:1130px) {
+
+    #quantity
+    {
+        width: 80px;
+    }
+    
+}
+.men-card-body
+{
+  width: 100%;
+}
+
+.men-buy-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-men
+{
+    width: 18rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 60px;
+    border: none;
+}
+.content-box
+{
+  
+  display: inline-block; 
+  width: 100%;
+ 
+}
+.content1
+{
+  float: left;
+}
+.content2
+{
+    
+  float: right;
+}

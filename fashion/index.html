@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="Responsive Card Slider/css/swiper-bundle.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+  <nav class="navbar  navbar-expand-lg bg-body-tertiary" style="padding: 0px;">
+    <div class="container-fluid nav-color p-2">
+      <a class="navbar-brand" href="#" style="margin-left: 2rem ;">
+        <img class="img-fluid logo-img" src="img/logo.png" alt="">
+      </a>
+
+
+      <button class="navbar-toggler nav-hamburger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav-hamburger-icon  ">
+          <i class="" data-feather="menu" ></i>
+        </span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0   text-center " style="margin-left: auto;">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Menswear.html">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled " aria-current="page" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled " aria-current="page" href="#">Girls</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#">Boys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="#">Kids</a>
+          </li>
+        </ul>
+        <form class="  d-flex" role="search" style="margin-right: 0.5rem ;">
+            <div class="d-flex search-div ">
+                <button class="search-icon " ><i class="m-1" data-feather="search"></i></button>
+                <input class="form-control search-bar " type="search" placeholder="Search" aria-label="Search" >
+                 <button class="shopping-bag-icon" ><i class="m-1 " data-feather="shopping-bag"></i></button>
+                 <div class="heart-icon m-1">
+                  <i class="m-1 "  data-feather="heart"></i> 
+                 </div>
+                 
+            </div>
+            
+          
+          
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+    
+        
+          
+
+
+
+<!--CAROUSEL-->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <div class="img-container img-fluid">
+        <img src="img/carousel1.png" class="d-block w-100" alt="...">
+        <div class="centered">
+          <p class="offer-msg">Upto 50% Off</p>
+          <button type="button" class="shopNow-btn btn btn-primary btn-sm">Shop Now !</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <div class="img-container">
+        <img src="img/carousel1.png" class="d-block w-100" alt="...">
+        <div class="centered">
+          <p class="offer-msg">Season Sale is On!</p>
+          <button type="button" class="shopNow-btn btn btn-primary btn-sm">Shop Now !</button>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <div class="img-container">
+        <img src="img/carousel1.png" class="d-block w-100" alt="...">
+        <div class="centered">
+          <p class="offer-msg">Grab the Offers! </p>
+          <button type="button" class="shopNow-btn btn btn-primary btn-sm">Shop Now !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+
+ <div class="container categories">
+
+  <p class="category-heading">Categories</p>
+  
+
+  <div class="category-cards">
+
+    <!--card1--->
+    <div class="card card1" style="width: 18rem;">
+      <div>
+        <img src="img/cardImg1.png" class="img-container card-img-top cardImg" alt="...">
+        <p class=" card-text-category">T-shirts</p>
+      </div>
+      
+    </div>
+
+    <!--card2--->
+    <div class="card card1" style="width: 18rem;">
+      <div>
+        <img src="img/cardImg2.png" class="img-container card-img-top cardImg" alt="...">
+        <p class=" card-text-category">T-shirts</p>
+      </div>
+    </div>
+
+    <!--card3--->
+    <div class="card card1" style="width: 18rem;">
+      <div>
+        <img src="img/cardImg3.png" class="img-container card-img-top cardImg" alt="...">
+        <p class=" card-text-category">T-shirts</p>
+      </div>
+    </div>
+
+    <!--card4--->
+    <div class="card card1" style="width: 18rem;">
+      <div>
+        <img src="img/cardImg4.png" class="img-container card-img-top cardImg" alt="...">
+        <p class=" card-text-category">T-shirts</p>
+      </div>
+    </div>
+
+    <!--card5--->
+    <div class="card card1" style="width: 18rem;">
+      <div>
+        <img src="img/cardImg5.png" class="img-container card-img-top cardImg" alt="...">
+        <p class=" card-text-category">T-shirts</p>
+      </div>
+    </div>
+
+  </div>
+ </div>
+ <br>
+ <div class="container popular">
+
+  <p class="popular-heading">Most Popular</p>
+
+  <div class="category-cards">
+
+    <!--card1--->
+    <div class="d-flex flex-column ">
+
+      <div class="card card1" style="width: 18rem;">
+        <div>
+          <img src="img/Rectangle 21.png" class="img-container card-img-top cardImg" alt="...">
+          <p class=" pop-card-text"><!--add--></p>
+        </div>         
+      </div>
+      <div>
+        <div class="card-body">
+          <div class="card-margin-text">
+            <h5 class="card-title">Tshirt-red</h5>
+          <p class="text-muted m-0">Oversized T-shirts</p>
+            
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="" style="margin-top: 8%;">INR 999</p>
+            <a href="men-card.html" class="btn m-0"><span class=" font-weight-bolder">Buy</span> <i class=" " data-feather="shopping-cart"></i></a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--card2--->
+    <div class="d-flex flex-column ">
+
+      <div class="card card1" style="width: 18rem;">
+        <div>
+          <img src="img/Rectangle 22.png" class="img-container card-img-top cardImg" alt="...">
+          <p class=" pop-card-text"><!--add--></p>
+        </div>         
+      </div>
+      <div>
+        <div class="card-body">
+          <div class="card-margin-text">
+            <h5 class="card-title">Casino-Polo</h5>
+          <p class="text-muted m-0">Printed Shirt</p>
+            
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="" style="margin-top: 8%;">INR 399</p>
+            <a href="men-card.html" class="btn m-0"><span class=" font-weight-bolder">Buy</span> <i class=" " data-feather="shopping-cart"></i></a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--card3--->
+    <div class="d-flex flex-column ">
+
+      <div class="card card1" style="width: 18rem;">
+        <div>
+          <img src="img/Rectangle 23.png" class="img-container card-img-top cardImg" alt="...">
+          <p class=" pop-card-text"><!--add--></p>
+        </div>         
+      </div>
+      <div>
+        <div class="card-body">
+          <div class="card-margin-text">
+            <h5 class="card-title">Jeans-Iceblue</h5>
+          <p class="text-muted m-0">Baggy Jeans</p>
+            
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="" style="margin-top: 8%;">INR 1099</p>
+            <a href="men-card.html" class="btn m-0"><span class=" font-weight-bolder">Buy</span> <i class=" " data-feather="shopping-cart"></i></a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+
+  </div>
+ </div>
+ <br>
+
+ <div class="container-fluid message ">
+   <p >Over 1 Lakh+ Happy Customers!</p>
+ </div>
+<br><br>
+
+ <div class="slider-card-div">
+
+  <p class="popular-heading">What our customers say about us !</p>
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile1.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">George</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                    
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile2.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Lucifer  </h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                    
+                        <img src="Responsive Card Slider/images/profile3.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Venessa</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile4.png" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Ema</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile5.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Robert</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile6.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Davikah</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile7.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">David</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile8.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Isabel</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                    
+                </div>
+            </div>
+            <div class="card slider-card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="Responsive Card Slider/images/profile9.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">Cougar</h2>
+                    <i class="fa fa-quote-left" style="font-size:30px"></i>
+                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+ <br><br>
+
+ <!--           ****************     footer    *******************           -->
+ <div class="footer">
+  <div class="container row p-4 " style="margin: auto;">
+
+    <div class="col-md-6">
+
+      <div class="d-flex flex-column">
+
+        <img class="logo-img" src="img/logo-f.png" alt=""><br>
+        <p class="footer-quote">"Life is too short to wear boring clothes !"</p>
+
+        <div class="socials d-flex">
+           <p>Follow us on</p>
+           <i class="m-1 " data-feather="facebook"></i>
+           <i class="m-1 " data-feather="instagram"></i>
+           <i class="m-1 " data-feather="twitter"></i>
+           <i class="m-1 " data-feather="youtube"></i>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <div class="d-flex flex-row row">
+
+          <div class="col-md-4">
+              <p class="footer-text2">Product</p>
+              <p>Popular</p>
+              <p>Best Selling</p>
+              <p>Categories</p>
+              <p>Others</p>
+          </div>
+          <div class="col-md-4">
+            <p class="footer-text2">About us</p>
+              <p>Stores</p>
+              <p>Accounts</p>
+              <p>Reviews</p>
+             
+          </div>
+          <div class="col-md-4">
+            <p class="footer-text2">Contact</p>
+              <p>Popular</p>
+              <p>+91 99 88 6666</p>
+              <p>info@fashionx.com</p>
+              <p>fashionx.com</p>
+
+          </div>
+
+        </div>
+
+
+    </div>
+
+
+  </div>
+
+    <div class="d-flex justify-content-center flex-column text-center m-0">
+      <p class="m-0 text-muted"> Copyright @2023 FashionX</p>
+      <p class="text-muted">All Rights Reserved</p>
+      <p style="font-weight: 450;">
+        Made with 
+        <i class="" data-feather="heart" style="color: red;"></i>
+        <img src="img/heart.gif" alt="">
+         by Pranav Chaurasia
+      </p>
+
+    </div>
+
+</div>
+
+
+    
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+      feather.replace()
+    </script>
+    <script src="Responsive Card Slider/js/swiper-bundle.min.js"></script> 
+    
+    <script src="slide.js"></script>
+  
+</body>
+</html>
+
